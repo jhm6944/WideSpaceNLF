@@ -37,9 +37,6 @@ import pandas as pd
 from utils import eval_uvst, rm_folder, AverageMeter, rm_folder_keep, eval_trans
 from src.cam_view import rayPlaneInter, get_rays, rotation_matrix_from_vectors
 from src.model import Nerf4D_relu_ps
-from src.model_addon2 import Nerf4D_relu_ps_addon2
-from src.model_addon2_2 import Nerf4D_relu_ps_addon2_2
-from src.model_addon4 import Nerf4D_relu_ps_addon4
 from skimage.metrics import structural_similarity, peak_signal_noise_ratio
 import lpips
 
